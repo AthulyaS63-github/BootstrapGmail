@@ -41,6 +41,7 @@
 .headerRight .material {
 	cursor: pointer;
 }
+
 .sideBarCompose {
 	margin-top: 15px;
 	margin-left: 10px;
@@ -58,19 +59,21 @@
 	box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
 }
 
+.sideBarCompose img {
+    margin-right: 5px;
+    color: rgba(255, 0, 0, 1.0);
+    width: 30px;
+  }
 
-.icons{
-	width:25px;
-	
-}
 .sidebarOption {
 	display: flex;
 	align-items: center;
-	padding:10px;
-	border-top-right-radius: 20px;
-	border-bottom-right-radius: 20px;
+	padding:  5px;
+	border-top-right-radius:12px;
+	border-bottom-right-radius:12px;
 	cursor: pointer;
 	color: #818181;
+	width: 154px;
 }
 .sidebarOption h3 {
 	flex: 1;
@@ -87,5 +90,80 @@
 .sidebarOptionActive .material-symbols-outlined {
 	background-color: #fcecec;
 	color: #c04b37;
-	font-weight: 800;
+	font-weight:500;
 }
+
+.emailListSettings {
+	
+	border-bottom: 1px solid whitesmoke;
+	background-color: white;
+	z-index: 999;
+	
+}
+
+
+
+.icons{
+	width:25px;
+	
+}
+.section {
+	display: flex;
+	align-items: center;
+	border-bottom-width: 2px;
+	padding: 15px;
+	min-width: 150px;
+	cursor: pointer;
+	color: grey;
+	border-width: 0;
+}
+.section h4 {
+	font-size: 14px;
+	margin-left: 15px;
+}
+.section:hover {
+	background-color: whitesmoke;
+	border-width: 3px;
+}
+.sectionSelected {
+
+	background-color: whitesmoke;
+	border-width: 3px;
+	color: red;
+	border-bottom: 3px solid red;
+}
+.emailRowTitle {
+	font-size: 13px;
+	flex: 0.3;
+}
+.emailRowMessage {
+	
+	
+	align-items: center;
+	font-size: 13px;
+}
+
+.emailRowMessage h4 {
+	
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	
+}
+.emailRowTime {
+	
+	font-size: 10px;
+	font-weight: bold;
+}
+.emailRow {
+	
+	
+	border-bottom: 1px solid whitesmoke;
+	cursor: pointer;
+	z-index: 999;
+}
+.emailRow:hover {
+	border-top: 1px solid whitesmoke;
+	box-shadow: 0 4px 4px -2px rgba(0,0,0, 0.24);
+}
+

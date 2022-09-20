@@ -6,147 +6,281 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="shortcut icon" href="assets/glogo.png">
     <script src="assets/bootstrap.js"></script>
-    
   </head>
- <body>
+  <body>
     <div class="container-fluid">
-       <div class="row ">
-          <div class="col-2 ">
-	    <div class="headerLeft">
-               <span class="material"> <img src="assets/menu.png" alt="logo"></span>
-              <img src="assets/gmail.jpg" alt="logo">
-	    </div>
+      <div class="row ">
+        <div class="col-2 ">
+          <div class="headerLeft">
+            <span class="material">
+              <img src="assets/menu.png" alt="logo">
+            </span>
+            <img src="assets/gmail.jpg" alt="logo">
           </div>
-         <div class="col-8 ">
-           <div class="headerMiddle">
-            <span class="material"> <img src="assets//search.png" alt="search"> </span>
+        </div>
+        <div class="col-8 ">
+          <div class="headerMiddle">
+            <span class="material">
+              <img src="assets//search.png" alt="search">
+            </span>
             <input type="text" placeholder="search mail" />
-            <span class="material"> <img src="assets//expand.png" alt="arrow"> </span>
-           </div>
-         </div>
-         <div class="col-2 ">
-	   <div class="headerRight">
-             <span class="material"> <img src="assets//apps.png" alt="apps"> </span>
-             <span class="material"><img src="assets//notication.png" alt="menu"> </span>
-             <span class="material"><img src="assets//account.png" alt="menu"> </span>
-           </div>
-	 </div>
+            <span class="material">
+              <img src="assets//expand.png" alt="arrow">
+            </span>
+          </div>
+        </div>
+        <div class="col-2 ">
+          <div class="headerRight">
+            <span class="material">
+              <img src="assets//apps.png" alt="apps">
+            </span>
+            <span class="material">
+              <img src="assets//notication.png" alt="menu">
+            </span>
+            <span class="material">
+              <img src="assets//account.png" alt="menu">
+            </span>
+          </div>
+        </div>
       </div>
-    <!--sidebar start-->
-      
-       <div class="row ">
-          <div class="col-2 ">
-                  <button class="sideBarCompose">
-                    <span class="material">
-                       <img src="assets//add.png" alt="menu">
-                    </span>compose 
-                 </button>
-                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
-                    <li>
-			<div class="sidebarOption sidebarOptionActive">
-          		<span>
-           			<img src="Assets/inbox3.png" alt="inbox" class="icons">
-          		</span>
-         		<h3>Inbox</h3>
-        		</div>
-		    </li>
-                    <li>
-                       <div class="sidebarOption ">
-         		 <span>
-            			<img src="Assets/grade.png" alt="grade" class="icons">
-         		 </span>
-          		<h3>Starred</h3>
-       			 </div>
-                    </li>
-                    <li>
-                        <div class="sidebarOption ">
-          		  <span>
-            		  <img src="Assets/timer.png" alt="schedule" class="icons">
-          		  </span>
-          		  <h3>Snoozed</h3>
-        		</div>
-                    </li>
-                    <li>
-                       <div class="sidebarOption ">
-          			<span>
-           			 <img src="Assets/label.png" alt="label" class="icons">
-          			</span>
-         			 <h3>Important</h3>
-        		</div>
-                    </li>
-                    <li>
-                      <div class="sidebarOption ">
-          			<span>
-            				<img src="Assets/send.png" alt="send" class="icons">
-          			</span>
-          			<h3>Sent</h3>
-       			 </div>
-                    </li>
-                    <li>
-                       <div class="sidebarOption ">
-          			<span>
-            				<img src="Assets/draft.png" alt="draft" class="icons">
-          			</span>
-        			  <h3>Drafts</h3>
-        		</div>
-                   <li>
-                     <div class="sidebarOption ">
-          		<span>
-            			<img src="Assets/expand.png" alt="arrow" class="icons">
-          		</span>
-         		 <h3>More</h3>
-        		</div>
-                   </li>
-		  <li>
-			<div class="sidebarFooter">
-          		   <div class="sidebarFooterIcons">
-            		  <span>
-             		    <img src="Assets/person.png" alt="person" class="icons">
-            		  </span>
-            		 <span>
-              		   <img src="Assets/video.png" alt="video" class="icons">
-            		 </span>
-           		 <span>
-              		    <img src="Assets/call.png" alt="call" class="icons">
-            		</span>
-          	     </div>
-                 </li>
-               </ul>
-         </div>
-         <!--sidebar end-->
-         <div class="col-10 ">
-	   <div class="row ">
-		<div class="col-6 ">
-			<input type="checkbox">
-            		<span>
-              			<img src="Assets/expand.png" class="icons" alt="expand">
-            		</span>
-                        <span>
-              			<img src="Assets/refresh.png" class="icons" alt="refresh">
-            		</span>
-           		 <span>
-              			<img src="Assets/morevert.png" class="icons" alt="morevert">
-           		 </span>
-          	</div>
-              <div class="col-6 text-end ">
-			 <span>
-              <img src="Assets/chevronleft.png" class="icons" alt="chl">
-            </span>
-            <span>
-              <img src="Assets/chevronright.png" class="icons" alt="chr">
-            </span>
-            <span>
-              <img src="Assets/keyboard.png" class="icons" alt="keyboard">
-            </span>
-            <span>
-              <img src="Assets/settings.png" class="icons" alt="settings">
-            </span>
-
-	       </div>
-             </div>
-	    </div>
-	 </div>
-       </div>
-     </div>
- </body>
+      <!--sidebar start-->
+      <div class="row sidebar">
+        <div class="col-2 ">
+          <button class="sideBarCompose">
+            <span class="material">
+              <img src="assets//add.png" alt="menu">
+            </span>compose </button>
+          <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li>
+              <div class="sidebarOption sidebarOptionActive">
+                <span>
+                  <img src="Assets/inbox3.png" alt="inbox" class="icons">
+                </span>
+                <h3>Inbox</h3>
+              </div>
+            </li>
+            <li>
+              <div class="sidebarOption ">
+                <span>
+                  <img src="Assets/grade.png" alt="grade" class="icons">
+                </span>
+                <h3>Starred</h3>
+              </div>
+            </li>
+            <li>
+              <div class="sidebarOption ">
+                <span>
+                  <img src="Assets/timer.png" alt="schedule" class="icons">
+                </span>
+                <h3>Snoozed</h3>
+              </div>
+            </li>
+            <li>
+              <div class="sidebarOption ">
+                <span>
+                  <img src="Assets/label.png" alt="label" class="icons">
+                </span>
+                <h3>Important</h3>
+              </div>
+            </li>
+            <li>
+              <div class="sidebarOption ">
+                <span>
+                  <img src="Assets/send.png" alt="send" class="icons">
+                </span>
+                <h3>Sent</h3>
+              </div>
+            </li>
+            <li>
+              <div class="sidebarOption ">
+                <span>
+                  <img src="Assets/draft.png" alt="draft" class="icons">
+                </span>
+                <h3>Drafts</h3>
+              </div>
+            <li>
+              <div class="sidebarOption ">
+                <span>
+                  <img src="Assets/expand.png" alt="arrow" class="icons">
+                </span>
+                <h3>More</h3>
+              </div>
+            </li>
+            <li>
+              <div class="sidebarFooter">
+                <div class="sidebarFooterIcons">
+                  <span>
+                    <img src="Assets/person.png" alt="person" class="icons">
+                  </span>
+                  <span>
+                    <img src="Assets/video.png" alt="video" class="icons">
+                  </span>
+                  <span>
+                    <img src="Assets/call.png" alt="call" class="icons">
+                  </span>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!--sidebar end-->
+        <div class="col-10 ">
+          <div class="row ">
+            <div class="col-6 ">
+              <input type="checkbox">
+              <span>
+                <img src="Assets/expand.png" class="icons" alt="expand">
+              </span>
+              <span>
+                <img src="Assets/refresh.png" class="icons" alt="refresh">
+              </span>
+              <span>
+                <img src="Assets/morevert.png" class="icons" alt="morevert">
+              </span>
+            </div>
+            <div class="col-6 text-end ">
+              <span>
+                <img src="Assets/chevronleft.png" class="icons" alt="chl">
+              </span>
+              <span>
+                <img src="Assets/chevronright.png" class="icons" alt="chr">
+              </span>
+              <span>
+                <img src="Assets/keyboard.png" class="icons" alt="keyboard">
+              </span>
+              <span>
+                <img src="Assets/settings.png" class="icons" alt="settings">
+              </span>
+            </div>
+          </div>
+          <div class="row ">
+            <div class="col-2 ">
+              <div class="section sectionSelected">
+                <span>
+                  <img src="Assets/inbox.png" class="icons" alt="inbox">
+                </span>
+                <h4>Primary</h4>
+              </div>
+            </div>
+            <div class="col-2 ">
+              <div class="section ">
+                <span>
+                  <img src="Assets/group.png" class="icons" alt="group">
+                </span>
+                <h4>Social</h4>
+              </div>
+            </div>
+            <div class="col-2 ">
+              <div class="section ">
+                <span>
+                  <img src="Assets/sell.png" class="icons" alt="group">
+                </span>
+                <h4>Promotions</h4>
+              </div>
+            </div>
+          </div>
+          <div class=" emailRow row">
+            <div class="col-3 mt-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h3 class="emailRowTitle pt-2">Youtube</h3>
+              </div>
+            </div>
+            <div class="col-7 mt-3">
+              <h3 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h3>
+            </div>
+            <div class="col-2 mt-3 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
+          </div>
+          <div class=" emailRow row">
+            <div class="col-3 mt-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h3 class="emailRowTitle pt-2">Youtube</h3>
+              </div>
+            </div>
+            <div class="col-7 mt-3">
+              <h3 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h3>
+            </div>
+            <div class="col-2 mt-3 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
+          </div>
+          <div class=" emailRow row">
+            <div class="col-3 mt-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h3 class="emailRowTitle pt-2">Youtube</h3>
+              </div>
+            </div>
+            <div class="col-7 mt-3">
+              <h3 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h3>
+            </div>
+            <div class="col-2 mt-3 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
+          </div>
+          <div class=" emailRow row">
+            <div class="col-3 mt-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h3 class="emailRowTitle pt-2">Youtube</h3>
+              </div>
+            </div>
+            <div class="col-7 mt-3">
+              <h3 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h3>
+            </div>
+            <div class="col-2 mt-3 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
+          </div>
+          <div class=" emailRow row">
+            <div class="col-3 mt-3">
+              <div class="emailRowOptions d-flex align-items-center">
+                <input type="checkBox">
+                <span>
+                  <img src="Assets/star.png" class="icons" alt="grade">
+                </span>
+                <span>
+                  <img src="Assets/label.png" class="icons" alt="label">
+                </span>
+                <h3 class="emailRowTitle pt-2">Youtube</h3>
+              </div>
+            </div>
+            <div class="col-7 mt-3">
+              <h3 class="emailRowTitle pt-2">You got a new subscriber -on your channel future coders </h3>
+            </div>
+            <div class="col-2 mt-3 text-end">
+              <p class="emailRowTime">10pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
