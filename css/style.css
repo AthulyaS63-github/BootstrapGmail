@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body{
+	font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+
+}
 .headerLeft img{
 	width:70px;
 }
@@ -78,7 +82,7 @@
 .sidebarOption h3 {
 	flex: 1;
 	margin-left: 10px;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 400;
 }
 
@@ -95,7 +99,7 @@
 
 .emailListSettings input,img {
 	
-	border-bottom: 1px solid whitesmoke;
+	border-bottom: 2px solid whitesmoke;
 	background-color: white;
 	z-index: 999;
         cursor:pointer;
@@ -116,7 +120,7 @@
 	border-width: 0;
 }
 .section h4 {
-	font-size: 14px;
+	font-size: 15px;
 	margin-left: 15px;
 }
 .section:hover {
@@ -126,24 +130,20 @@
 .sectionSelected {
 
 	background-color: whitesmoke;
-	
 	color: red;
 	border-bottom: 3px solid red;
 }
 .emailRowTitle {
-	font-size: 13px;
+	font-size: 15px;
 	flex: 0.3;
 }
 .emailRowMessage {
 	
-	
-	align-items: center;
-	font-size: 13px;
+	font-size: 15px;
 }
 
 .emailRowMessage h4 {
 	
-	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	
@@ -167,5 +167,9 @@
 .emailRowDescription {
 	font-weight: 400;
 	color: gray;
+}
+.emailRowTitle{
+	font-size: 14px;
+	font-weight: bold;
 }
 
